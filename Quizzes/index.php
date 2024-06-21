@@ -381,7 +381,7 @@ License: For each use you must have a valid license purchased only from above li
                                                 <!--begin::Body-->
                                                 <div class="card-body">
                                                     <!--begin::Scroll-->
-                                                    <div class="hover-scroll-overlay-y pe-6 me-n6">
+                                                    <div class="hover-scroll-overlay-y pe-6 me-n6" style="height: 415px;">
                                                         <!--begin::Item-->
                                                         <div class="border border-dashed border-gray-300 rounded px-7 py-3 mb-6">
                                                             <!--begin::Info-->
@@ -464,7 +464,7 @@ License: For each use you must have a valid license purchased only from above li
                                                                 <td class="text-end">02 Apr, 2024</td>
                                                                 <!--end::Date added-->
                                                                 <!--begin::Author-->
-                                                                <td class="text-end">Max Smith</td>
+                                                                <td class="text-end"></td>
                                                                 <!--end::Author-->
                                                             </tr>
                                                         </tbody>
@@ -2043,7 +2043,7 @@ License: For each use you must have a valid license purchased only from above li
                                                         <!--end::Avatar-->
                                                         <!--begin::Details-->
                                                         <div class="ms-6">
-                                                            <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Quiz Specifications</a>
+                                                            <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Product Specifications</a>
                                                             <div class="fw-semibold text-muted">230kb</div>
                                                         </div>
                                                         <!--end::Details-->
