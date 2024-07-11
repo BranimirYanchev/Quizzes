@@ -15,7 +15,7 @@ submitButton.on('click', (e) => {
         return;
     }
     
-    sendData(data, url);
+    sendData(data, url, "Successfully signed up!", "index.php");
 });
 
 function checkPasswords(pass, confirmPass){
@@ -28,10 +28,16 @@ function checkPasswords(pass, confirmPass){
 }
 
 function checkResult(result){
+    if(result['are_fields_empty']){
+        toastr.error("All of the fields must be filled!");
+        return false;
+    }
+
+
     let messages = {
         email: "Invalid email!",
         password: "Invalid password!",
-        username: "Invalid username!"
+        username: "Invalid username!",
     }
 
     for(el in result){
@@ -41,24 +47,18 @@ function checkResult(result){
         }
     }
 
-    return true;
+    if(!checkIfUserExists(result['is_user_exists'], "This user already exists!")){
+        return true;
+    }
+
+    return false;
 }
 
-function sendData(data, url){
-    const formData = {
-        url: url, // The URL to which the request is sent
-        type: 'POST', // The type of request: GET, POST, PUT, DELETE, etc.
-        data: data,
-        success: function(response) {
-            let result = JSON.parse(response);
-            if(checkResult(result)){
-                toastr.success("Signed up successful!");
-            }
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-            toastr.error('Something went wrong');
-        }
-    } 
+function checkIfUserExists(isUserExists, message){
+    if(isUserExists){
+        toastr.error(message);
+        return true;
+    }
 
-    $.ajax(formData);   
+    return false;
 }

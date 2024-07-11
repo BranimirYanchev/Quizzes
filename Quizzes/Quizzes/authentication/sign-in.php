@@ -25,13 +25,25 @@ License: For each use you must have a valid license purchased only from above li
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Metronic by Keenthemes" />
 		<link rel="canonical" href="http://authentication/layouts/fancy/sign-in.php" />
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-in.php
 		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+=======
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+>>>>>>> Stashed changes:Quizzes/authentication/sign-in.php
 		<!--begin::Fonts(mandatory for all pages)-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 		<!--end::Fonts-->
 		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-in.php
+=======
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
+>>>>>>> Stashed changes:Quizzes/authentication/sign-in.php
 		<!--end::Global Stylesheets Bundle-->
 		<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
 	</head>
@@ -86,9 +98,15 @@ License: For each use you must have a valid license purchased only from above li
 									<!--begin::Heading-->
 									<!--begin::Input group=-->
 									<div class="fv-row mb-8">
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-in.php
 										<!--begin::Email-->
 										<input type="text" placeholder="Email" name="email" autocomplete="off" data-kt-translate="sign-in-input-email" class="form-control form-control-solid" />
 										<!--end::Email-->
+=======
+										<!--begin::Username-->
+										<input type="text" placeholder="Username" name="username" autocomplete="off" data-kt-translate="sign-in-input-username" class="form-control form-control-solid" />
+										<!--end::Username-->
+>>>>>>> Stashed changes:Quizzes/authentication/sign-in.php
 									</div>
 									<!--end::Input group=-->
 									<div class="fv-row mb-7">
@@ -203,6 +221,7 @@ License: For each use you must have a valid license purchased only from above li
 		<!--end::Root-->
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-in.php
 		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
 		<script src="assets/plugins/global/plugins.bundle.js"></script>
 		<script src="assets/js/scripts.bundle.js"></script>
@@ -210,6 +229,12 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Custom Javascript(used for this page only)-->
 		<script src="assets/js/custom/authentication/sign-in/general.js"></script>
 		<script src="assets/js/custom/authentication/sign-in/i18n.js"></script>
+=======
+		<!--begin::Custom Javascript(used for this page only)-->
+		<script src="src/js/custom/authentication/sign-in/operations.js"></script>
+		<script src="src/js/custom/authentication/sendData.js"></script>
+		<script src="src/js/custom/authentication/togglePassView.js"></script>
+>>>>>>> Stashed changes:Quizzes/authentication/sign-in.php
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
 	</body>

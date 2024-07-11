@@ -65,7 +65,11 @@ License: For each use you must have a valid license purchased only from above li
 						<div class="d-flex flex-stack py-2">
 							<!--begin::Back link-->
 							<div class="me-2">
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-up.php
 								<a href="authentication/layouts/corporate/sign-in.php" class="btn btn-icon bg-light rounded-circle">
+=======
+								<a href="authentication/sign-in.php" class="btn btn-icon bg-light rounded-circle">
+>>>>>>> Stashed changes:Quizzes/authentication/sign-up.php
 									<i class="ki-outline ki-black-left fs-2 text-gray-800"></i>
 								</a>
 							</div>
@@ -73,7 +77,11 @@ License: For each use you must have a valid license purchased only from above li
 							<!--begin::Sign Up link-->
 							<div class="m-0">
 								<span class="text-gray-500 fw-bold fs-5 me-2" data-kt-translate="sign-up-head-desc">Already a member ?</span>
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-up.php
 								<a href="authentication/layouts/corporate/sign-in.php" class="link-primary fw-bold fs-5" data-kt-translate="sign-up-head-link">Sign In</a>
+=======
+								<a href="authentication/sign-in.php" class="link-primary fw-bold fs-5" data-kt-translate="sign-up-head-link">Sign In</a>
+>>>>>>> Stashed changes:Quizzes/authentication/sign-up.php
 							</div>
 							<!--end::Sign Up link=-->
 						</div>
@@ -81,7 +89,11 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Body-->
 						<div class="py-20">
 							<!--begin::Form-->
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-up.php
 							<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="authentication/layouts/corporate/sign-in.php">
+=======
+							<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="authentication/sign-in.php">
+>>>>>>> Stashed changes:Quizzes/authentication/sign-up.php
 								<!--begin::Heading-->
 								<div class="text-start mb-10">
 									<!--begin::Title-->
@@ -227,6 +239,10 @@ License: For each use you must have a valid license purchased only from above li
 		<script>var hostUrl = "assets/";</script>
 		<!--begin::Custom Javascript(used for this page only)-->
 		<script src="src/js/custom/authentication/sign-up/operations.js"></script>
+<<<<<<< Updated upstream:Quizzes/Quizzes/authentication/sign-up.php
+=======
+		<script src="src/js/custom/authentication/sendData.js"></script>
+>>>>>>> Stashed changes:Quizzes/authentication/sign-up.php
 		<script src="src/js/custom/authentication/togglePassView.js"></script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
